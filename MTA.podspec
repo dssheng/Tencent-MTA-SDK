@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MTA'
-  s.version          = '1.5.9'
+  s.version          = 'v1.5.9'
   s.summary          = 'Tencent MTA. non-offical'
 
 # This description is used to generate tags and improve search results.
