@@ -1,0 +1,6 @@
+framework module Pods_MTA_Tests {
+  umbrella header "Pods-MTA_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

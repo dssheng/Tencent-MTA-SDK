@@ -1,0 +1,6 @@
+framework module MTA {
+  umbrella header "MTA-umbrella.h"
+
+  export *
+  module * { export * }
+}

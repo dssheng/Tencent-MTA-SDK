@@ -1,0 +1,16 @@
+PODS:
+  - MTA (0.1.0)
+
+DEPENDENCIES:
+  - MTA (from `../`)
+
+EXTERNAL SOURCES:
+  MTA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MTA: b8e927a0ee2a3c20b5948cb724d29dc3be4ae8ab
+
+PODFILE CHECKSUM: 2f83d9ae011c9eb90b1764204f543e240ee2c7fc
+
+COCOAPODS: 1.0.1
