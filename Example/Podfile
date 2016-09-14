@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MTA_Tests' do
+  pod 'MTA', :path => '../'
+  
+  
+end
