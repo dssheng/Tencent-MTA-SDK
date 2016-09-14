@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MTA' => 'Tencent' }
-  s.source           = { :git => 'https://github.com/dssheng/Tencent-MTA-SDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dssheng/Tencent-MTA-SDK.git', :tag => 'v1.5.9' }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '7.0'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'SystemConfiguration','Security','CoreTelephony'
   s.library = 'z','sqlite3'
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
