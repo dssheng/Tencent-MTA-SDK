@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.description      = 'Tencent MTA. non-offical, Testing'
 
   s.homepage         = 'http://mta.qq.com/mta'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots     = 'www.example.com/screenshots_', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MTA' => 'Tencent' }
   s.source           = { :git => 'https://github.com/dssheng/Tencent-MTA-SDK.git', :tag => '1.5.9' }
@@ -36,6 +36,7 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'SystemConfiguration','Security','CoreTelephony'
   s.library = 'z','sqlite3'
+  s.ios.vendored_library = "libmtasdk.a"
   s.public_header_files = 'Pod/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
